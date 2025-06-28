@@ -5,19 +5,21 @@
 #include <string>
 
 class ClapTrap {
-private:
+protected:
 	std::string name;
 	unsigned int hitPoints;
 	unsigned int energyPoints;
 	unsigned int attackDamage;
 public:
-	// Constructors and Destroyers
+	// Constructors and destructor
 	ClapTrap();
 	ClapTrap(const std::string& name);
 	ClapTrap(const ClapTrap& src);
 	~ClapTrap();
+
 	// Assignment operator
 	ClapTrap& operator=(const ClapTrap& rhs);
+
 	// Public methods
 	void attack(const std::string& target);
 	void takeDamage(unsigned int amount);
