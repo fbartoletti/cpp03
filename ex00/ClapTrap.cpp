@@ -68,3 +68,4 @@ void ClapTrap::beRepaired(unsigned int amount) {
 	energyPoints--;
 	std::cout << "ClapTrap " << name << " is repaired for " << amount << " points! Total hit points: " << hitPoints << std::endl;
 }
+

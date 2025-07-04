@@ -1,7 +1,7 @@
 #include "ClapTrap.hpp"
 
 int main() {
-	// Test parameterized constructor
+ 	// Test parameterized constructor
 	ClapTrap clap1("Clappy");
 	// Test copy constructor
 	ClapTrap clap2(clap1);

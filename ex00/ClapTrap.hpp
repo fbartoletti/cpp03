@@ -1,8 +1,8 @@
 #ifndef CLAPTRAP_HPP
 #define CLAPTRAP_HPP
 
-#include <iostream>
 #include <string>
+#include <iostream>
 
 class ClapTrap {
 private:
@@ -11,7 +11,8 @@ private:
 	unsigned int energyPoints;
 	unsigned int attackDamage;
 public:
-	// Constructors and Destroyers
+	// OCF
+	// Constructors, cpy Constructors and Destroyers
 	ClapTrap();
 	ClapTrap(const std::string& name);
 	ClapTrap(const ClapTrap& src);
@@ -25,3 +26,4 @@ public:
 };
 
 #endif
+
